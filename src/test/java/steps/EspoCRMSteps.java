@@ -36,7 +36,6 @@ public class EspoCRMSteps {
         List<String> names = dataTable.asList();
         for (String function: names){
             System.out.println(function);
-            System.out.println(function.length());
         }
     }
 }
